@@ -8,15 +8,11 @@
 
 ### hello world
 
-'''
-
+```sh
 code hello.c
-
 make hello
-
 ./hello
-
-'''
+```
 
 - C and python are line-based.
 - so we can use `\n` to separate lines.
