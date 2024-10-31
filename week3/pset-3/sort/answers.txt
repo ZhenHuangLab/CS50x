@@ -1,0 +1,24 @@
+sort1 uses: Bubble sort
+
+How do you know?: the slowest method when the list is reversed; the fastest when sorted.
+
+sort2 uses: Merge sort
+
+How do you know?: the fastest method when the list is random or reversed. (Almost the fastest among the three)
+
+sort3 uses: Selection sort
+
+How do you know?: the median-speed method; the slowest when the list is sorted.
+
+                sort1   sort2   sort3
+random5000      0.099   0.025   0.043
+random10000     0.190   0.096   0.147
+random50000     6.716   1.096   3.032
+
+reversed5000    0.069   0.044   0.043
+reversed10000   0.229   0.128   0.159
+reversed50000   5.960   1.393   3.195
+
+sorted5000      0.028   0.028   0.042
+sorted10000     0.066   0.125   0.123
+sorted50000     1.097   1.087   2.932

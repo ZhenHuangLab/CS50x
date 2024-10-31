@@ -98,3 +98,62 @@ Unlike many modern languages, C requires that you specify the data type of every
     - store single characters
     - always take up 1 byte (8 bits)
     - range from $-128 \to 127$
+- float
+    - store floating point numbers (real numbers)
+    - always take up 4 bytes (32 bits)
+- double
+    - store floating point numbers (real numbers)
+    - always take up 8 bytes (64 bits)
+    - double precision
+- void: like a placeholder for nothing.
+
+Create a variable:
+
+```c
+[data type] [variable name];
+```
+
+Create multiple variable of the same type:
+
+```c
+[data type] [variable name], [variable name], [variable name];
+```
+
+This process is called **declaration**.
+
+Assignment:
+
+```c
+[variable name] = [value];
+```
+
+declaration and assignment together is sometimes called **initialization**.
+
+```c
+[data type] [variable name] = [value];
+```
+
+### 2. Operators
+
+Arithmetic operators:
+
+- `+`
+- `-`
+- `*`
+- `/`
+- `%`, modulus
+
+Boolean expressions:
+
+- every non-zero value is true, zero is false.
+- Logical operators:
+    - `||`, or
+    - `&&`, and
+    - `!`, not
+- Relational operators:
+    - `==`, equal (not assignment `=`)
+    - `!=`, not equal
+    - `<`, less than
+    - `>`, greater than
+    - `<=`, less than or equal to
+    - `>=`, greater than or equal to
