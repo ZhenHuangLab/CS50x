@@ -56,3 +56,15 @@ and the output will be:
 ```
 
 The numbers are the ASCII codes of the characters, and `66` is the ASCII code of `B`. So we access the second word by words[0] *illegally* .
+
+## Shorts
+
+### 1. Functions
+
+A black box with a set of 0+ inputs and a single output.
+
+Declaration:
+
+```c
+return_type name(argument-list);
+```

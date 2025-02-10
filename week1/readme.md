@@ -157,3 +157,131 @@ Boolean expressions:
     - `>`, greater than
     - `<=`, less than or equal to
     - `>=`, greater than or equal to
+
+### 3. Conditionals
+
+1. If
+
+```c
+if (boolean expression)
+{
+    // Statement
+}
+```
+
+2. If-else
+
+```c
+if (boolean expression)
+{
+    // Statement
+}
+else
+{
+    // Statement
+}
+```
+
+3. If-else if-else
+
+```c
+if (boolean expression)
+{
+    // Branch 1
+}
+else if (boolean expression)
+{
+    // Branch 2
+}
+else
+{
+    // Branch 3
+}
+```
+
+4. Switch
+
+```c
+switch(x)
+{
+    case 1:
+        // Statement 1
+        break;
+    case 2:
+        // Statement 2
+        break;
+    default:
+        // Default Statement
+}
+```
+
+It's important to use `break` to prevent fallthrough.
+
+5. `?:`
+
+```c
+int x = (expression) ? (statement if true) : (statement if false);
+```
+
+### 4. Loops
+
+1. `while`
+
+```c
+while (boolean expression)
+{
+    // Statement
+}
+```
+
+Use when you want a loop to repeat an unknown number of times, and possibly not at all.
+
+2. `do-while`
+
+```c
+do
+{
+    // Statement
+} while (boolean expression);
+```
+
+This loop will always execute at least once. Use when you want a loop to repeat an unknown number of times, but at least once.
+
+3. `for`
+
+```c
+for (start; boolean expression; update)
+{
+    // Statement
+}
+```
+
+Use when you want a loop to repeat a discrete number of times.
+
+### 5. Command Line
+
+- `ls`: list
+- `pwd`: present working directory
+- `cd`: change directory
+- `mkdir`: make directory
+- `cp <source> <destination>`: copy
+- `rm <file>`: remove file
+- `mv <source> <destination>`: move
+- `chmod`: change mode
+- `ln`: create links
+- `touch`: create file
+- `rmdir`: remove directory
+- `man`: manual
+- `diff`: compare files
+- `clear`: clear the terminal
+- `telnet`: check for open ports
+
+### 6. Magic Numbers
+
+Preprocessor directives (macro)
+
+```c
+#define NAME REPLACEMENT
+```
+
+`#define` is like find and replace.
